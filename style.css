@@ -2,16 +2,26 @@
     margin: 0;
     padding: 0;
 }
+
 li {
     list-style: none;
 }
+
 a {
     text-decoration: none;
     color: #515767;
 }
+
 a:visited {
     color: #515767;
 }
+
+.nav1 .first,
+.nav-list .first {
+    color: #1e80ff;
+}
+
+
 /* 字体声明 */
 @font-face {
     font-family: 'icomoon';
@@ -33,6 +43,7 @@ a:visited {
     overflow: hidden;
     border-bottom: 1px solid #f1f1f1;
 }
+
 .header .container {
     margin: 0 auto;
     width: 1440px;
@@ -48,7 +59,8 @@ a:visited {
     background-color: #fff;
     overflow: hidden;
 }
-.logo a{
+
+.logo a {
     display: block;
     width: 107px;
     height: 22px;
@@ -61,6 +73,7 @@ a:visited {
     float: left;
     /* background-color: chartreuse; */
 }
+
 .nav1 ul li {
     color: #515767;
     float: left;
@@ -69,15 +82,17 @@ a:visited {
     margin: 0 12px 0 12px;
     font-size: 15px;
 }
-.nav1 .first{
-    color: #1e80ff;
-}
+
+
+
 .nav1 a:hover {
     color: #252933;
 }
-.nav1 .play:hover{
+
+.nav1 .play:hover {
     border-bottom: 2px solid #1e80ff;
 }
+
 .nav1 ul a {
     display: inline-block;
 }
@@ -97,6 +112,7 @@ a:visited {
     width: 370px;
     height: 60px;
 }
+
 .search input {
     width: 330px;
     height: 10px;
@@ -107,9 +123,11 @@ a:visited {
     color: #c0c4cb;
     padding: .6rem 0 .6rem 1rem;
 }
+
 .search input:hover {
     border: 2px solid #8a919f;
 }
+
 .glass {
     position: relative;
     display: inline-block;
@@ -120,6 +138,7 @@ a:visited {
     height: 29px;
     background-color: #f2f3f5;
 }
+
 .glass img {
     position: relative;
     top: 6px;
@@ -134,13 +153,16 @@ a:visited {
     width: 137px;
     height: 60px;
 }
+
 .creative ul li:hover {
     background-color: #1171ee;
 }
-.creative ul li{
+
+.creative ul li {
     float: left;
     /* display: block; */
 }
+
 .box2 {
     width: 0;
     height: 0;
@@ -157,18 +179,21 @@ a:visited {
     border-radius: 4px 0 0 4px;
     border-right: 1px solid #358dff;
 }
-.creative ul .left a{
+
+.creative ul .left a {
     line-height: 35px;
     margin: auto 13px;
     text-align: center;
     font-size: 13px;
     color: #FFF;
 }
+
 .creative .right {
     position: relative;
     bottom: -14px;
     right: 0px;
 }
+
 .right2 {
     display: inline-block;
     width: 30px;
@@ -186,11 +211,13 @@ a:visited {
     height: 60px;
     /* background-color: plum; */
 }
-.vip a{
+
+.vip a {
     display: inline-block;
     width: 80px;
     margin: 10px;
 }
+
 .vip img {
     width: 24px;
     height: 24px;
@@ -198,7 +225,8 @@ a:visited {
     position: relative;
     top: 5px;
 }
-.vip p{
+
+.vip p {
     margin-left: 5px;
     display: inline-block;
     line-height: 35px;
@@ -210,6 +238,7 @@ a:visited {
     width: 60px;
     height: 60px;
 }
+
 .bell a {
     display: inline-block;
     font-family: 'icomoon';
@@ -219,6 +248,7 @@ a:visited {
     width: 60px;
     font-size: 23px;
 }
+
 .bell a:hover {
     color: #515767;
 }
@@ -228,8 +258,46 @@ a:visited {
     float: left;
     width: 40px;
 }
+
 .user img {
     position: relative;
     width: 35px;
     top: -19px;
+}
+
+
+/* 第二行导航栏 */
+.view-nav {
+    top: 5rem;
+    width: 100%;
+    height: 3.833rem;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 4%);
+}
+
+.nav-list {
+    width: 960px;
+    height: 61px;
+    margin: 0 auto;
+    border-bottom: 1px solid #f1f1f1
+}
+
+.nav-list a {
+    display: inline-block;
+    text-align: center;
+    line-height: 61px;
+    padding: 0px 12px;
+    font-size: 15px;
+    color: #71777c;
+}
+
+.nav-list a:hover {
+    color: #007fff;
+}
+
+.nav-list a:last-child {
+    float: right;
+}
+
+.nav-list a:first-child {
+    padding: 0px 12px 0px 0px;
 }
